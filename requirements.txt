@@ -1,0 +1,14 @@
+bitarray==2.9.2
+cffi==1.16.0
+cryptography==43.0.0
+mmh3==4.1.0
+Naked==0.1.32
+pip-autoremove==0.10.0
+pybloomfiltermmap3==0.6.0
+pycparser==2.22
+PyYAML==6.0.1
+secretsharing @ git+https://github.com/blockstack/secret-sharing@d898dbaf2f85806fc8f73c57b17ef07d581e956e
+shellescape==3.8.1
+six==1.16.0
+termcolor==2.4.0
+utilitybelt==0.2.6
