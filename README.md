@@ -8,7 +8,7 @@ The **Verbose-Fishstick Protocol** is intentionally flawed protocol 🦠 which d
 
 The protocol unfolds through these key steps:
 
-1. **ECC (Elliptic Curve Cryptography)**: Each participant generates a unique identifier using ECC's public key 🔑. ![](https://github.com/ace-lii/verbose-fishstick/edit/main/README.md#:~:text=ECC.-,png,-MiTM.py)
+1. **ECC (Elliptic Curve Cryptography)**: Each participant generates a unique identifier using ECC's public key 🔑. ![](https://github.com/ace-bibabo/verbose-fishstick/blob/main/ECC.png)
 
 
 2. **Shamir's Secret Sharing**: The identifier is split into multiple shares using the k-out-of-n Shamir's Secret Sharing scheme. This clever method ensures the ID can only be reconstructed when a minimum number of shares are combined, adding a touch of extra security 🛡️.
