@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **Verbose-Fishstick Protocol** is a whimsical and intentionally flawed digital contact tracing system 🦠. Designed to track close contacts securely, it uses some privacy and security measures through cryptographic techniques 🔒. Despite its imperfections, this protocol highlights how even imperfect systems can aid in public health efforts 🌍.
+The **Verbose-Fishstick Protocol** is intentionally flawed protocol 🦠 which designed to track close contacts securely, it uses some privacy and security measures through cryptographic techniques 🔒. Despite its imperfections, this protocol shows a little bit how even imperfect systems can help in public health.
 
 ## Protocol Overview
 
