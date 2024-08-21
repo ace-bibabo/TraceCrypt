@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **Verbose-Fishstick Protocol** is intentionally flawed protocol 🦠 which designed to track close contacts securely, it uses some privacy and security measures through cryptographic techniques 🔒. Despite its imperfections, this protocol shows a little bit how even imperfect systems can help in public health.
+The **Verbose-Fishstick Protocol** is an intentionally flawed protocol 🦠 which used to track close contacts securely, it uses  privacy and security measures through cryptographic techniques 🔒. Despite its imperfections, this protocol shows a little bit tech skills lol.
 
 ## Protocol Overview
 
@@ -18,11 +18,11 @@ The protocol unfolds through these key steps:
 
 4. **ID Reconstruction**: Devices gather incoming shares and reconstruct the original ID when they collect the required number of shares. This step ensures that only those in close proximity and for a sufficient duration can obtain the ID, representing true close contact scenarios 🏷️.
 
-5. **Diffie-Hellman Key Exchange for Shared ID**: Once the ID is reconstructed, devices perform a Diffie-Hellman key exchange to derive a shared secret key 🔑. 
+5. **Generate Shared Key**: Once the ID is reconstructed, devices perform the key exchange part to derive a shared secret key 🔑. 
 
-6. **Storing IDs in Bloom Filters (BFs)**: IDs are encoded and stored in BFs, which are efficient probabilistic data structures. Each BF holds records for a short period before being periodically sent to a backend server via TCP for cross-referencing with reported cases. The server then responds with exposure status based on these matches 📊.
+6. **Storing IDs in Bloom Filters (BFs)**: IDs are encoded and stored in BFs, which are efficient data structures and somehow privacy. Each BF holds records for a short period before being periodically sent to a backend server via TCP for cross-referencing with reported cases. The server then responds with infected status based on these matches 📊.
 
-7. **Reporting Infected Diagnosis**: If a diagnosis is positive, a client can upload its Bloom Filter (BF) to the backend server. This process helps notify other users who may have been exposed, facilitating timely interventions 🚨.
+7. **Reporting Infected Diagnosis**: If a diagnosis is infected, a client can upload its Bloom Filter (BF) to the backend server. This process helps notify others who may have been infected.
 
 ## Potential Attacks
 
