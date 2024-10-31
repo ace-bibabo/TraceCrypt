@@ -1,8 +1,8 @@
-# Verbose-Fishstick Protocol
+# TraceCrypt Protocol
 
 ## Introduction
 
-The **Verbose-Fishstick Protocol** is an intentionally flawed protocol 🦠 which used to track close contacts securely, it uses  privacy and security measures through cryptographic techniques 🔒. Despite its imperfections, this protocol shows a little bit tech skills lol.
+The **TraceCrypt Protocol** is an intentionally flawed protocol 🦠 which used to track close contacts securely, it uses  privacy and security measures through cryptographic techniques 🔒. Despite its imperfections, this protocol shows a little bit tech skills lol.
 
 ## Protocol Overview
 
